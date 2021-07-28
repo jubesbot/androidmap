@@ -3,6 +3,9 @@
     "name": "AndroidMap",
     "slug": "AndroidMap",
     "version": "1.0.0",
+    "plugins": [
+      "@react-native-mapbox-gl/maps"
+    ],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -23,7 +26,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "host.exp.exponent.androidmap"
     },
     "web": {
       "favicon": "./assets/favicon.png"
